@@ -1,5 +1,5 @@
 # StringGenerator
-
+[![Build Status](https://travis-ci.org/Razor92100/A3_PSR.svg?branch=master)](https://travis-ci.org/Irvyne/SessionStorage)
 StringGenerator is a little program that allow you to create random password with
 three different levels.
 
