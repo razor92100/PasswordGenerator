@@ -6,7 +6,11 @@ php:
   - hhvm
 
 before_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
   - composer install --prefer-dist --dev
 
 script:
-  - phpunit
+  - phpunit --coverage-clover=coverage.clover
+
+after script:
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
