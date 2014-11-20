@@ -86,8 +86,8 @@ class PasswordGenerator
                 break;
         }
         for ($i = 0; $i < $length; $i++){
-            $string .= mb_substr($chaine, (mt_rand(0, mb_strlen($chaine) -1)), 1);
+            $string .= mb_substr($chaine, (mt_rand(0, mb_strlen($chaine) - 1)), 1);
         }
         return $string;
     }
-} 
+}
