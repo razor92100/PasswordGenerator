@@ -9,6 +9,7 @@ difficulty of the password generate: PASSWORD_EASY, PASSWORD_MEDIUM and PASSWORD
 ```php
 <?php
 // Simply create a new instance of PasswordGenerator Class
+// Choose the number of characters
 // And change the name of the constant to change the difficulty
 // You're done :)
 
