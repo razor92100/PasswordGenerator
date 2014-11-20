@@ -5,6 +5,7 @@ three different levels.
 
 Just chose how many characters compose your password and use one of the three constants to change the
 difficulty of the password generate:
+
 PASSWORD_EASY, PASSWORD_MEDIUM and PASSWORD_HARD.
 
 ## How it works
