@@ -78,10 +78,10 @@ class PasswordGenerator
             case self::PASSWORD_EASY:
                 $chaine = self::$passwordCharEasy;
                 break;
-            case self::PASSWORD_MEDIUM;
+            case self::PASSWORD_MEDIUM:
                 $chaine = self::$passwordCharMedium.self::$passwordCharEasy;
                 break;
-            case self::PASSWORD_HARD;
+            case self::PASSWORD_HARD:
                 $chaine = self::$passwordCharHard.self::$passwordCharMedium.self::$passwordCharEasy;
                 break;
         }
