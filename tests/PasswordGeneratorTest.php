@@ -17,6 +17,8 @@ use Web1\StringGenerator\PasswordGenerator;
 class PasswordGeneratorTest extends \PHPUnit_Framework_TestCase
 {
     /**
+     * Test if simpleGenerate method length generate
+     * the real length of the password in Medium mode
      * @throws \Exception
      */
     public function testSimpleGenerateLengthEasy()
@@ -29,7 +31,7 @@ class PasswordGeneratorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test if simpleGenerate method length generate
-     * the real length of the password in Hard mode
+     * the real length of the password in Medium mode
      *
      * @throws \Exception
      */
