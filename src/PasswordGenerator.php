@@ -63,7 +63,7 @@ class PasswordGenerator
      */
     public static function simpleGenerate($nb = null, $strength = self::PASSWORD_MEDIUM)
     {
-        if (!in_array($strength, [
+        if (false === in_array($strength, [
             self::PASSWORD_EASY,
             self::PASSWORD_MEDIUM,
             self::PASSWORD_HARD,
