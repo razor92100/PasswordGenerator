@@ -16,8 +16,14 @@ $passwordGenerator = new PasswordGenerator();
 
 // First parameter is the number of character that compose your password
 // Second parameter is the difficulty
-$passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_EASY)
-$passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM)
+
+// Easy Password example with 10 characters
+$passwordGenerator->simpleGenerate(10, \Web1\StringGenerator\PasswordGenerator::PASSWORD_EASY)
+
+// Medium Password example with 20 characters
+$passwordGenerator->simpleGenerate(20, \Web1\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM)
+
+// Easy Password example with 30 characters
 $passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_HARD)
 
 ```
