@@ -1,4 +1,5 @@
 language: php
+
 php:
   - 5.4
   - 5.5
@@ -12,5 +13,5 @@ before_script:
 script:
   - phpunit --coverage-clover=coverage.clover
 
-after script:
+after_script:
   - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
