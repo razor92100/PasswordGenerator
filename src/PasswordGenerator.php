@@ -35,15 +35,15 @@ class PasswordGenerator
     /**
      * @var string
      */
-    private static $passwordCharEasy = "abcdefghijklmnopqrstuvwxyz";
+    private static $passwordCharEasy = 'abcdefghijklmnopqrstuvwxyz';
     /**
      * @var string
      */
-    private static $passwordCharMedium = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    private static $passwordCharMedium = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     /**
      * @var string
      */
-    private static $passwordCharHard = "abcdefghijklmnopqrstuvwxyz&é§èçà#ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    private static $passwordCharHard = 'abcdefghijklmnopqrstuvwxyz&é§èçà#ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     /**
      *
