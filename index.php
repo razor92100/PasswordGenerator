@@ -16,6 +16,6 @@ echo $slugify->slugify($title);
 */
 
 $passwordGenerator = new \Web1\StringGenerator\PasswordGenerator();
-echo "<p>generateur simple: ".$passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_HARD)."</p>";
+echo "<p>generateur simple: ".$passwordGenerator->simpleGenerate()."</p>";
 
 
