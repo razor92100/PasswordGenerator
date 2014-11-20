@@ -87,7 +87,7 @@ class PasswordGenerator
         }
         $string = "";
         for ($i = 0; $i < $length; $i++){
-            $string .= $chaine[rand()%strlen($chaine)];
+            $string .= $chaine[rand()%mb_strlen($chaine)];
         }
         return $string;
     }
