@@ -8,6 +8,11 @@ difficulty of the password generate: PASSWORD_EASY, PASSWORD_MEDIUM and PASSWORD
 
 ```php
 <?php
+// Simply create a new instance of PasswordGenerator Class
+// And change the name of the constant to change the difficulty
+// You're done :)
+
+$passwordGenerator = new PasswordGenerator();
 
 $passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_EASY)
 $passwordGenerator->simpleGenerate(30, \Web1\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM)
